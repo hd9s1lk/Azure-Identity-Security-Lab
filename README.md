@@ -11,7 +11,7 @@ This is a hands-on lab focused on securing Microsoft Entra ID (Azure AD) identit
 - Create alerts using Log Analytics and Azure Monitor
 
 ## Architecture & Workflow
-1. **Users & Groups:** Created `user.test` and `admin.test`, grouped in `grp-users` and `grp-admins`.
+1. **Users & Groups:** Created `User` and `Admin`, grouped in `grp-users` and `grp-admins`.
 2. **MFA Enforcement:** Required MFA for all users.
 3. **Conditional Access:** Policy `CA-Require-MFA-All-Users` applied to all cloud apps.
 4. **Sign-in Monitoring:** Logs collected from Microsoft Entra ID sign-ins.
@@ -20,7 +20,7 @@ This is a hands-on lab focused on securing Microsoft Entra ID (Azure AD) identit
 ## Screenshots
 ![User Login](screenshots/user.png)
 ![Admin Login](screenshots/admin.png)
-![Overal Logs](screenshots/logs.png)
+![Microsoft Entra ID sign-ins](screenshots/logs.png)
 ![User Logs](screenshots/user_logs.png)
 ![Admin Logs](screenshots/admin_logs.png)
 
