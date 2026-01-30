@@ -29,4 +29,3 @@ This is a hands-on lab focused on securing Microsoft Entra ID (Azure AD) identit
 - Importance of identity protection in cloud environments
 - MFA and Conditional Access as core security measures
 - Log analytics and alerts for SOC monitoring
-- Understanding Azure Free / Students limits
